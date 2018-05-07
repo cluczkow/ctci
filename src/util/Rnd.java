@@ -18,4 +18,10 @@ public class Rnd {
         }
         return new String(s);
     }
+
+    public static int Int(int max) {
+
+        Random random = new Random();
+        return random.nextInt(max);
+    }
 }
